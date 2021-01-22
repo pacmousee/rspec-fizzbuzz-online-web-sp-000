@@ -3,7 +3,7 @@
 def fizzbuzz (int)
   if int % 3 == 0 do
     fizz_3 = fizzbuzz(3)
-  end
+
     expect (fizz_3).to eq("Fizz")
   end
   if int % 5 == 0
